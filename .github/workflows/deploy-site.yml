@@ -18,5 +18,6 @@ jobs:
         run: pnpm run build
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
+        working-directory: .
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
