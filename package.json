@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "-----うおおおおおおおおおおお-----------": "",
     "build": "turbo build",
-    "dev": "turbo dev"
+    "dev": "turbo dev",
+    "deploy": "turbo deploy"
   },
   "keywords": [],
   "author": "",

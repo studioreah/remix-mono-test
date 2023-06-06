@@ -1,0 +1,33 @@
+
+> app@ deploy /Users/inu/src/reah/products/yamadaryo/packages/app
+> wrangler publish
+
+ ⛅️ wrangler 2.15.1 (update available 3.0.1)
+--------------------------------------------
+Running custom build: pnpm run build
+
+> app@ build /Users/inu/src/reah/products/yamadaryo/packages/app
+> remix build
+
+Building Remix app in production mode...
+Built in 563ms
+Reading build/_shared/chunk-VPLA6LMI.js...
+Skipping - already uploaded.
+Reading build/_shared/chunk-VSILMI35.js...
+Skipping - already uploaded.
+Reading build/entry.client-NMPSRWO6.js...
+Skipping - already uploaded.
+Reading build/manifest-A69575CC.js...
+Skipping - already uploaded.
+Reading build/root-6DVFQZV3.js...
+Skipping - already uploaded.
+Reading build/routes/_index-UWQFEKTQ.js...
+Skipping - already uploaded.
+Reading favicon.ico...
+Skipping - already uploaded.
+↗️  Done syncing assets
+Total Upload: 383.46 KiB / gzip: 98.98 KiB
+Uploaded yamadaryo (1.87 sec)
+Published yamadaryo (0.33 sec)
+  https://yamadaryo.shimahi.workers.dev
+Current Deployment ID: 71df690e-2ff2-4cdf-8e70-5d1f96bb8119
