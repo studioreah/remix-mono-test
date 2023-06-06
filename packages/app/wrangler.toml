@@ -9,5 +9,5 @@ compatibility_flags = ["streams_enable_constructors"]
 [site]
   bucket = "./public"
 
-[build]
-  command = "pnpm run build"
+# [build]
+#   command = "pnpm run build"
