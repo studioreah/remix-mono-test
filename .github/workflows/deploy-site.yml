@@ -10,14 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy to Cloudflare Workers with Wrangler
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2.2.2
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: pnpm setup
+        uses: pnpm/action-setup@v2.2.2
       - name: Install Deps
         run: pnpm install --frozen-lockfile
       - name: Build App
         run: pnpm run build
-      - name: Publish
+      - name: Deploy
         uses: cloudflare/wrangler-action@2.0.0
-        working-directory: .
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

@@ -1,1 +1,1 @@
-export const message = 'うおおおおおおおおおおおおおおおお'
+export const message = 'いぬ〜〜〜'
