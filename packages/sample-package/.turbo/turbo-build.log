@@ -1,0 +1,4 @@
+
+> sample-package@1.0.0 build /Users/inu/src/reah/products/yamadaryo/packages/sample-package
+> tsc ./src/index.ts --outDir ./dist --declaration
+

@@ -1,0 +1,23 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "-----うおおおおおおおおおおお-----------": "",
+    "build": "turbo build",
+    "dev": "turbo dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@8.6.1",
+  "engines": {
+    "npm": "Use pnpm anyway! Use pnpm anyway! Use pnpm anyway! Use pnpm anyway! Use pnpm anyway! Use pnpm anyway! ",
+    "yarn": "Use pnpm anyway! Use pnpm anyway! Use pnpm anyway! Use pnpm anyway! Use pnpm anyway! Use pnpm anyway! ",
+    "pnpm": ">=8.6.1"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.1"
+  }
+}

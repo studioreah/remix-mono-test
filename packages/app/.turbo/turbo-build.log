@@ -1,0 +1,6 @@
+
+> app@ build /Users/inu/src/reah/products/yamadaryo/packages/app
+> remix build
+
+Building Remix app in production mode...
+Built in 502ms
